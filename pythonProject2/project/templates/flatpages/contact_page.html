@@ -1,0 +1,35 @@
+{% extends 'flatpages/default.html' %}
+ 
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+<!--Заголовок первого окна-->
+{% block hcontent %}
+    <h4>
+        Номера директоров
+    </h4>
+{% endblock hcontent %}
+
+<!--Описание первого окна    -->
+{% block content %}
+    <h2>
+        some_number_1 - our manager
+        some_number_2 - 1st director
+    </h2>
+{% endblock content %}
+
+<!--Заголовок второго окна-->
+{% block h2content %}
+    <h4>
+        Номера менторов
+    </h4>
+{% endblock h2content %}
+
+<!--Описание второго окна-->
+{% block some %}
+    <h2>
+        some_number_1 - our manager
+        some_number_2 - 1st director
+    </h2>
+{% endblock some %}
